@@ -136,7 +136,14 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Réparation", "Réparation Ordinateurs", "Réparation Hardware", "Mr Attal certified" ],
+        strings: ["BSOD" ],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: false
+    });   
+    
+    var typed = new Typed(".typing-3", {
+        strings: ["Barathier", "Bilba", "Stevens", "Ozange", "Dupuis", "(Gasnier)" ],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
