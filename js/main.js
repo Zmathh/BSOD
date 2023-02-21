@@ -129,32 +129,19 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Etudiant GEII", "Etudiant", "Etudiant à Chartres", "21 ans"],
+        strings: ["Réparation", "Réparation Ordinateurs", "Réparation Hardware", "Mr Attal certified"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Etudiant GEII", "Etudiant", "Etudiant à Chartres", "21 ans" ],
+        strings: ["Réparation", "Réparation Ordinateurs", "Réparation Hardware", "Mr Attal certified" ],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
-    var typed = new Typed(".typing-3", {
-        strings: ["mathis", "", "", "moi" ],
-        typeSpeed: 140,
-        backSpeed: 160,
-        loop: false
-    });
-
-    var typed = new Typed(".typing-4", {
-        strings: ["Contactez moi"],
-        typeSpeed: 80,
-        backSpeed: 140,
-        loop: false
-    });
 
     
 
